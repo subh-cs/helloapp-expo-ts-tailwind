@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/icon1.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.subh_cs.helloapp"
     },
     "web": {
       "favicon": "./src/assets/icon1.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "255a381d-cdd6-4780-9eec-f7682853ee97"
+      }
     }
   }
 }

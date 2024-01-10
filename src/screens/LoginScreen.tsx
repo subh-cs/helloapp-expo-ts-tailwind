@@ -1,7 +1,7 @@
 import { View, Text, TouchableOpacity } from 'react-native'
 import React from 'react'
 import { StatusBar } from 'expo-status-bar';
-import Constants from 'expo-constants';
+const envSecret = process.env.SECRET
 
 
 export interface ILoginProps {
@@ -11,7 +11,7 @@ export interface ILoginProps {
 }
 
 const LoginScreen = ({ handleLogin }: ILoginProps) => {
-    const envSecret = Constants.expoConfig?.extra?.envSecretForTest;
+
     return (
         <View className='flex-1 items-center justify-center bg-blue-300'>
             <Text className='text-white italic antialiased p-3'>Welcome to the helloapp made with react native, expo, typescript and tailwind 🚀</Text>

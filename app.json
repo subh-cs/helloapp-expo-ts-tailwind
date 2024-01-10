@@ -17,7 +17,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/sync_icon_white.png",
+        "foregroundImage": "./assets/synclabs_icon.png",
         "backgroundColor": "#000000"
       },
       "package": "com.subh_cs.helloapp"

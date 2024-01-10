@@ -4,23 +4,21 @@
     "slug": "helloapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/icon1.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/synclabs_icon.png",
+    "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./src/assets/splash1.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/splashscreen_portrait.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./src/assets/icon1.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/sync_icon_white.png",
+        "backgroundColor": "#000000"
       },
       "package": "com.subh_cs.helloapp"
     },
